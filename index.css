@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+}
+
+a{
+    color: white;
+    font-size: 30px;
+}
+
+.logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: green; */
+}
+
+nav{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+}
+
+.first-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rebeccapurple;
+    background-repeat: none;
+    background-size:cover;
+    background-position: center bottom;
+    background-image: url("https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp");
+}
+
+.second-page{
+    background-color: yellow;
+}
+
+.content{
+    /* background-color: green; */
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 200px;
+}
+
+/* https://www.spacex.com/static/images/backgrounds-new/Turk5A-3302.webp */
